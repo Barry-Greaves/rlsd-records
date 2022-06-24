@@ -78,9 +78,8 @@ header {
 #menu-left a {
     text-decoration: none;
     color: white;
-    text-decoration: none;
-    color: white;
     font-weight: 500;
+    font-size: larger;
 }
 
 #menu-right li {
@@ -94,6 +93,7 @@ header {
     text-decoration: none;
     color: white;
     font-weight: 500;  
+    font-size: larger;
 }
 
 #menu-right a:hover {
@@ -117,16 +117,13 @@ header {
    
 }
 
-
-
 #menu-right{
     margin: 0;
     padding: 0;   
 }
 
-#menu-right{
-    margin: 0;
-    padding: 0;   
+.active {
+    border-bottom: 1px solid #ffffff;
 }
  
 /* hero image section */
