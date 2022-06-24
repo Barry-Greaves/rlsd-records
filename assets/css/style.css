@@ -3,12 +3,108 @@
 * {
     margin: 0;
     padding: 0;
-    border: 0;
+    border: none;
 }
 
 body {
     font-family: Monsterrat, sans-serif;
     font-weight: 300;
     color: white;
-    background-color: black;
+    background-color: rgb(36, 36, 36);
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
+
+header {
+    
+    background-color: black;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-group {
+    position: fixed;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.left-header {
+    background-color: rgb(0, 0, 0);
+    width: 400px;
+    display: flex;
+    justify-content: right;  
+}
+
+.center-header {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+
+.right-header {
+    background-color: rgb(0, 0, 0);
+    width: 400px;  
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+.header-logo {
+    height: 55px;
+}
+
+#menu-left li {
+    display: inline-block;
+    margin-left: 30px;
+   
+}
+
+#menu-left a {
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+#menu-right li {
+    display: inline-block;
+    margin-right: 30px;
+    
+    
+}
+
+#menu-right a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 110%;
+}
+
+#menu-left a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 110%;
+}
+
+
+
+#menu-right{
+    margin: 0;
+    padding: 0;   
+}
+
+#menu-right{
+    margin: 0;
+    padding: 0;   
+}
+    
