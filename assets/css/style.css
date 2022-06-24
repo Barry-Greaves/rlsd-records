@@ -17,12 +17,15 @@ body {
     border: 0;
 }
 
+/* header section */
+
 header {
     
     background-color: rgb(0, 0, 0);
     height: 75px;
     margin: 0;
     padding: 0;
+    
     
 }
 
@@ -33,6 +36,8 @@ header {
     flex-direction: row;
     align-items: center;
     width: 100%;
+    z-index: 2;
+    background-color: rgb(0, 0, 0);
 }
 
 .left-header {
@@ -131,6 +136,7 @@ header {
     width: 100%; 
     overflow: hidden;
     position: relative;
+    
 
 }
 
@@ -138,7 +144,7 @@ header {
    
         height: 600px;
          width: 100%; 
-         background: url('../images/border\ collapse\ hero\ wider.png')  no-repeat center center;
+         background: url('../images/hero\ 1\ PC.png')  no-repeat center center;
 
          animation-name: hero-zoom;
          animation-duration: 5s;
