@@ -113,7 +113,7 @@ header {
 }
 
 #logo-wrap :hover {
-    border: 1px solid #ffffff;
+    border: 1.5px solid #ffffff;
     border-radius: 50%;
    
 }
@@ -190,7 +190,7 @@ header {
 /* events */
 
 #photos {
-    clear: both;
+    clear: left;
     line-height: 0;
     column-count: 3;
     column-gap: 0;
@@ -200,6 +200,8 @@ header {
 #photos > img {
     width: 100%;
 }
+
+
 
 
 
