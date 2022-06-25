@@ -201,8 +201,12 @@ header {
 .pod-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: auto;
-    
+    margin: auto;  
+}
+
+.podcast-title {
+    margin-top: 6px;
+    margin-bottom: 6px;
 }
 
 /* footer */
