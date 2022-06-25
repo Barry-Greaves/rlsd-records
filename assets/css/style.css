@@ -187,23 +187,23 @@ header {
     }
 }
 
-/* events */
+/* podcast gallery */
 
-#photos {
-    clear: left;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0;
-
+.podcast-container {
+    width: 300px;
+    margin-bottom: 20px;
 }
 
-#photos > img {
+.pod-images {
     width: 100%;
 }
 
-
-
-
+.pod-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: auto;
+    
+}
 
 /* footer */
 
