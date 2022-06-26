@@ -202,16 +202,24 @@ header {
 .pod-gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: auto;  
+    margin: auto;
+   
+    top: 50%;
+    left: 50%;
+   
 }
+
+
 
 .podcast-title {
     margin-top: 6px;
     margin-bottom: 6px;
+    text-decoration: none;  
+    color: white;
     
 }
 
-.podcast-title h3 {
+.podcast-title a {
     color: white;
     text-decoration: none;
 }
