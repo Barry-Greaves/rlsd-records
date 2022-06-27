@@ -255,6 +255,19 @@ header {
     margin-bottom: 20px;
 }
 
+
+/* dark stream page */
+
+#dark-stream-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+
+
+
 /* footer */
 
 footer {
