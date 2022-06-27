@@ -228,9 +228,27 @@ header {
 /* podcast player page */
 
 .soundcloud-container {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 600px;
     margin: 0 auto;
+}
+
+.podcast-description {
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.podcast-title h1 {
+    font-size: 3rem;
+}
+
+.podcast-title {
+    margin: 0 auto;
+    width: 600px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 /* footer */
