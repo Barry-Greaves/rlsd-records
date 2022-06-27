@@ -225,14 +225,42 @@ header {
     text-decoration: none;
 }
 
+.podcast-gallery-title {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.podcast-gallery-title h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.podcast-gallery-title p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: larger;
+}
+
+/* podcast gallery media queries*/
 
 @media screen and (max-width: 600px) {
     .pod-gallery {
 
         grid-template-columns: 1fr;
     }
-
 }
+
+@media screen and (min-width:620px) and (max-width:950px)
+{
+    .pod-gallery {
+
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
 /* podcast player page */
 
 .soundcloud-container {
