@@ -225,6 +225,14 @@ header {
     text-decoration: none;
 }
 
+
+@media screen and (max-width: 600px) {
+    .pod-gallery {
+
+        grid-template-columns: 1fr;
+    }
+
+}
 /* podcast player page */
 
 .soundcloud-container {
