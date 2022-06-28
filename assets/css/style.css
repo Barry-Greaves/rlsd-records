@@ -20,33 +20,27 @@ body {
 
 /* header section */
 
-header {
-    
-    background-color: rgb(0, 0, 0);
+header {  
     height: 75px;
     margin: 0;
-    padding: 0;
-    
-    
+    padding: 0;   
 }
 
 .header-group {
     position: fixed;
     height: 75px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    display: flex; 
+    align-items: center;  
     width: 100%;
     z-index: 2;
     background-color: rgb(0, 0, 0);
 }
 
 .left-header {
-    background-color: rgb(0, 0, 0);
-    width: 450px;
+    width: 35%;
     display: flex;
-    justify-content: right;  
+    justify-content: right; 
+   
 }
 
 .center-header {
@@ -57,59 +51,38 @@ header {
 }
 
 .right-header {
-    background-color: rgb(0, 0, 0);
-    width: 450px;  
+    width: 35%;  
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
-    
-    
+   
 }
 
 .header-logo {
     height: 55px;
 }
 
-#menu-left li {
-    display: inline-block;
-    margin-left: 30px;
-   
+#nav-menu li {
+    display: inline-block; 
 }
 
-#menu-left a {
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    
-}
-
-#menu-right li {
-    display: inline-block;
+.left-li {
     margin-right: 30px;
-    
-    
 }
 
-#menu-right a {
+.right-li {
+    margin-left: 30px;
+}
+
+
+#nav-menu a {
     text-decoration: none;
     color: white;
-    font-weight: 500;  
-   
+    font-weight: 500;   
 }
 
-#menu-right a:hover {
-    border-bottom: 1px solid #ffffff;
-}
-
-#menu-left a {
-    text-decoration: none;
-    color: white;
-    font-weight: 500;
-    
-}
-
-#menu-left a:hover {
+#nav-menu a:hover {
     border-bottom: 1px solid #ffffff;
 }
 
@@ -119,15 +92,25 @@ header {
    
 }
 
-#menu-right{
-    margin: 0;
-    padding: 0;   
-}
 
 .active {
     border-bottom: 1px solid #ffffff;
 }
+
+
  
+
+@media (max-width: 35em ) {
+
+    #nav-menu {
+        display: none;
+    }
+
+ 
+}
+
+
+
 /* hero image section */
 
 #hero-section {
@@ -135,8 +118,6 @@ header {
     width: 100%; 
     overflow: hidden;
     position: relative;
-    
-
 }
 
 #hero-image {
@@ -144,7 +125,6 @@ header {
         height: 600px;
          width: 100%; 
          background: url('../images/hero\ 1\ PC.png')  no-repeat center center;
-
          animation-name: hero-zoom;
          animation-duration: 5s;
          animation-fill-mode: forwards;
@@ -265,12 +245,12 @@ header {
 
 .soundcloud-container {
     height: 400px;
-    width: 600px;
+    width: 70%;
     margin: 0 auto;
 }
 
 .podcast-name {
-    width: 800px;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 20px;
@@ -286,9 +266,26 @@ header {
 }
 
 .podcast-write-up {
-    width: 600px;
+    width: 70%;
     margin: 0 auto;
     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .podcast-write-up {
+
+    width: 90%;
+    }
+
+    .podcast-name {
+
+        width: 90%;
+        }
+
+    .soundcloud-container {
+
+    width: 90%;
+    }
 }
 
 
