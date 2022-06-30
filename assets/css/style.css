@@ -297,8 +297,8 @@ header {
 
 #dark-stream-grid {
     display: grid;
-    grid-template-columns:1fr 1fr;
-    margin: 20px 60px;
+    grid-template-columns:1fr;
+    margin: 20px 200px;
     row-gap: 50px;
     column-gap: 20px;
 }
@@ -362,6 +362,13 @@ header {
 .dark-stream-info {
     background-color: rgba(0, 0, 0, .5)
 
+}
+
+@media screen and (max-width: 1000px) {
+    #dark-stream-grid {
+  grid-template-columns: 1fr;
+  margin: 20px 40px;
+    }
 }
 
 /* artists  page */
