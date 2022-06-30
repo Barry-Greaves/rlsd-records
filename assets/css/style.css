@@ -365,7 +365,7 @@ header {
     display: flex;
     margin: 0 auto;
     margin-top: 20px;
-    padding: 0 12%;
+    ;padding: 0 12%;
 }
 
 .artist-left {
@@ -425,10 +425,9 @@ header {
 @media screen and (max-width: 800px) {
     .artist-info-container {
         display: block;
-        width: 80%;
         margin: auto;
-        margin-top: 20px;
-        padding: 0 12%;
+        padding: 0 8%;
+        
     }
 
     .artist-right {
