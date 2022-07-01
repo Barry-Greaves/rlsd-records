@@ -339,7 +339,7 @@ header {
     padding: 0;
     border: 0;
     padding-bottom: 75px;
-    background-image: url("/assets/images/DS\ background\ logo.png");
+    background-image: url("../images/DS\ background\ logo.png");
     background-repeat: no-repeat;
     background-size:contain;
     background-position: center;
