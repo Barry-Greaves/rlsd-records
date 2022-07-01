@@ -202,8 +202,8 @@ header {
 }
 
 .release-art-box {
- width: 300px;
- margin-left: 80px;
+ width: 350px;
+ margin: 0 auto;
 
 }
 
@@ -213,7 +213,7 @@ header {
 
 .release-info {
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: 60px;
 
 }
 
@@ -240,12 +240,17 @@ header {
         margin: auto;
     }
     .release-art-box {
-        margin: 0 auto;
+        margin: 0 auto 30px;
+        width: 300px
+        
        }
 
        .release-info {
-        margin: 20px 20px
+        margin: 20px 20px;
+        display: inline-block;
+        text-align: center;
        }
+       
 
        #release-container {
         margin: 40px auto;
@@ -253,13 +258,21 @@ header {
 
        #release-container h1 {
         font-weight: 300;
+        margin-top: 60px;
         margin-bottom: 60px;
         text-align: center;
     }
 
-    .release-info li, h2, a {
-        margin-top: 10px auto;
-        text-align: center;
+  
+
+    .release-info h2 {
+        font-weight: 300;
+        font-size: 1rem;
+    }
+
+    #release-container hr {
+        margin: 50px 20px;
+        z-index: 2; 
     }
 
 }
