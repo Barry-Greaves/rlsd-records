@@ -296,11 +296,16 @@ header {
 /* dark stream page */
 
 #dark-stream-grid {
-    display: grid;
-    grid-template-columns:1fr;
+    
+
     margin: 20px 200px;
     row-gap: 50px;
     column-gap: 20px;
+    
+}
+
+#dark-stream-grid hr {
+    margin-bottom: 60px;
 }
 
 .video-container {
@@ -308,6 +313,7 @@ header {
     width: 100%;
     padding-bottom: 56.25%; 
     height: 0;
+    overflow: auto;
 }
 
 .video-container iframe{
@@ -342,32 +348,37 @@ header {
 
   #dark-stream-header h1 {
     text-align: center;
-    font-weight:900;  
-    font-size: 4rem;
+    font-weight:400;  
+    font-size: 3rem;
     padding: 20px 0;
 }
 
 .dark-stream-info p {
-    padding: 50px 10px;
-    font-size: 1.3rem;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    overflow: auto;
     
 }
 
 .dark-stream-info h2 {
-    font-size: 2.5rem;
-    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: 600;
     padding: 20px 10px;
 }
 
 .dark-stream-info {
     background-color: rgba(0, 0, 0, .5)
+}
 
+.dark-stream-info {
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 @media screen and (max-width: 1000px) {
     #dark-stream-grid {
   grid-template-columns: 1fr;
-  margin: 20px 40px;
+  margin: 20px 20px;
     }
 }
 
