@@ -181,7 +181,7 @@ header {
 /* releases page */
 
 #release-container {
-margin: 30px 60px;
+    margin: 40px 170px;
 }
 
 #release-container hr {
@@ -202,8 +202,8 @@ margin: 30px 60px;
 }
 
 .release-art-box {
- width: 60%;
- margin-left: 120px;
+ width: 300px;
+ margin-left: 80px;
 
 }
 
@@ -232,6 +232,36 @@ margin: 30px 60px;
 
 .release-info ul {
     line-height: 2;
+}
+
+@media screen and (max-width: 900px) {
+    .release-row {
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+    .release-art-box {
+        margin: 0 auto;
+       }
+
+       .release-info {
+        margin: 20px 20px
+       }
+
+       #release-container {
+        margin: 40px auto;
+       }
+
+       #release-container h1 {
+        font-weight: 300;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .release-info li, h2, a {
+        margin-top: 10px auto;
+        text-align: center;
+    }
+
 }
 
 
