@@ -16,7 +16,6 @@ body {
     padding: 0;
     border: 0;
     padding-bottom: 75px;
-
 }
 
 a:link { text-decoration: none; }
@@ -43,7 +42,7 @@ header {
     align-items: center;  
     width: 100%;
     z-index: 2;
-    background-color: rgb(16, 16, 16);
+    background-color: rgba(16, 16, 16, .8);
 }
 
 .left-header {
@@ -222,7 +221,7 @@ header {
 }
 
 .release-info p {
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .release-info h2 {
