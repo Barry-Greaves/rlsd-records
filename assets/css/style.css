@@ -178,6 +178,63 @@ header {
     }
 }
 
+/* releases page */
+
+#release-container {
+margin: 30px 60px;
+}
+
+#release-container hr {
+    margin: 50px 0;
+    z-index: 2; 
+}
+
+#release-container h1 {
+    font-weight: 300;
+    margin-bottom: 60px;
+    font-size: 2rem;
+}
+
+.release-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.release-art-box {
+ width: 60%;
+ margin-left: 120px;
+
+}
+
+.release-art {
+    max-width: 100%;
+}
+
+.release-info {
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+.release-info li {
+    list-style-type: none;
+}
+
+.release-info p {
+    margin-top: 10px;
+}
+
+.release-info h2 {
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.release-info ul {
+    line-height: 2;
+}
+
+
 /* podcast gallery */
 
 .podcast-container {
