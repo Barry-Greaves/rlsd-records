@@ -313,7 +313,7 @@ hr {
     line-height: 2;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1007px) {
     .release-row {
         grid-template-columns: 1fr;
         margin: auto;
@@ -367,7 +367,14 @@ hr {
 /* release player page */
 
 .release-container {
-    margin: 40px 170px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+
+}
+
+.release-grid {
+margin: 40px 170px; 
 }
 
 audio {
@@ -428,15 +435,37 @@ audio {
     border-color: black;
 }
 
+.release-art-tracks {
+    width: 350px;
+    margin: 0 auto;
+   
+   }
+
+@media screen and (max-width: 1007px) {
+    .release-container {
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+
+    .release-art-tracks {
+        width: 100%;
+        margin: 0 20px;
+       
+       }
+}
+
 /* podcast gallery */
 
 .podcast-container {
     width: 100%;
     margin-bottom: 20px;  
+    border: 1px solid rgb(70, 70, 70);
+    padding:0
 }
 
 .pod-images {
     width: 100%;
+    border-bottom: 1px solid rgb(70, 70, 70);
 }
 
 .pod-gallery {
@@ -449,40 +478,58 @@ audio {
 
 
 .podcast-title {
-    margin-top: 6px;
+    border-bottom: 1px solid rgb(70, 70, 70);
     margin-bottom: 6px;
     text-decoration: none;  
     color: white;
+    padding: 5px;
+    font-size: 1rem;
+    text-transform: uppercase
+    
 }
+
+
 
 .podcast-title a {
     color: white;
     text-decoration: none;
 }
 
+
+
+
 .podcast-gallery-title {
-    width: 75%;
-    margin: 30px auto 40px;
+    width: 50%;
+    margin: 20px auto 30px;
 }
 
 .podcast-gallery-title h1 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 400;
+}
+
+.podcast-description {
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 1rem;
 }
 
 .podcast-gallery-title p {
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: larger;
+    font-size: 1rem;
 }
 
 /* podcast gallery media queries*/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .pod-gallery {
 
         grid-template-columns: 1fr;
+    }
+    .podcast-gallery-title {
+        width: 75%;
     }
 }
 
@@ -491,6 +538,9 @@ audio {
     .pod-gallery {
 
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .podcast-gallery-title {
+        width: 75%;
     }
 }
 
@@ -598,8 +648,8 @@ audio {
 
   #dark-stream-header h1 {
     text-align: center;
-    font-weight:400;  
-    font-size: 3rem;
+    font-weight:300;  
+    font-size: 2rem;
     margin: 30px 0;
 }
 
@@ -611,9 +661,9 @@ audio {
 }
 
 .dark-stream-info h2 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    padding: 20px 10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding: 10px 20px;
 }
 
 .dark-stream-info {
@@ -648,19 +698,22 @@ audio {
 .artist-container {
     width: 100%;
     margin-bottom: 20px; 
+    border: 1px solid rgb(70, 70, 70);
     
 }
 
 .artist-container h2 {
     text-align: center;
-    margin-top: 1rem;
+    margin: 1rem 0;
+
     font-weight: 300;
-    font-size: xx-large;
+    font-size: 1.5rem;
     color: lightgrey
 }
 
 .artist-pic {
     width: 100%;
+    border-bottom: 1px solid rgb(70, 70, 70);
 }
 
 .artists-grid {
@@ -675,18 +728,19 @@ audio {
 
 /* artist page media queries */
 
-@media screen and (max-width: 600px) {
-    .artists-grid {
 
-        grid-template-columns: 1fr;
-    }
-}
-
-@media screen and (min-width:620px) and (max-width:950px)
+@media screen and (max-width:1007px)
 {
     .artists-grid {
 
         grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .artists-grid {
+
+        grid-template-columns: 1fr;
     }
 }
 
@@ -798,7 +852,7 @@ footer {
     width: 100%;
     text-align: center;
     background-color: rgb(16, 16, 16);
-    border-top: 1px solid rgb(70, 70, 70);
+    border-top: 1px solid rgb(70, 70, 70)
 
 }
 
