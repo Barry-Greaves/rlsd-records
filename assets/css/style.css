@@ -33,120 +33,68 @@ hr {
 
 /* header section */
 
-header {  
-    height: 65px;
+.nav {
+    border-bottom:1px solid lightgray;
     margin: 0;
-    padding: 0;   
-}
-
-.header-group {
-    position: fixed;
-    height: 65px;
-    display: flex; 
-    align-items: center;  
-    justify-content: space-between;
-    width: 100%;
     z-index: 2;
     background-color: rgb(16, 16, 16);
-    border-bottom: 1px solid #ffffff;
 }
 
-.burger-logo {
+.nav__toggle {
+    position:absolute;
+    cursor: pointer;
+    margin: 0rem 1rem;
+    right: 0;
+}
+
+.burger-icons {
+    width: 2rem;
+    margin-top:0.2rem;
+}
+
+#close {
+    display:none;
+}
+
+.nav__checkbox{
+    display:none;
+}
+
+.nav__menu{
+    display:flex;
+    flex-direction: column;
+    gap:1.5rem;
+    align-items: left;
+    margin: 1rem;
+}
+
+.nav__menu li {
+    list-style: none;
     display: none;
-    height: 50px
+    font-weight: 500;
 }
 
-.left-header {
-    width: 35%;
-    display: flex;
-    white-space: nowrap;
-    justify-content: right;
-
-   
+.nav__menu li:first-child {
+    margin-right: auto;
+    display: block;
 }
 
-.center-header {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    min-width: 50px;
+.rlsd-logo{
+    width:2.8rem;
 }
 
-.right-header {
-    width: 35%;  
-    display: flex;
-    margin: 0;
-    padding: 0;
-    white-space: nowrap;
-   
+#nav__checkbox:checked ~ ul.nav__menu li {
+    display: block;
+}
+#nav__checkbox:checked ~ label.nav__toggle #close{
+    display: block;
 }
 
-.header-logo {
-    height: 50px;
+#nav__checkbox:checked ~ label.nav__toggle #burger{
+    display: none;
 }
 
-#nav-menu li {
-    display: inline-flex
-}
-
-.left-li {
-    margin-right: 2rem;
-}
-
-.right-li {
-    margin-left: 2rem;
-}
-
-
-#nav-menu a {
-    text-decoration: none;
-    color: white;
-    font-weight: 500;   
-}
-
-#nav-menu a:hover {
-    border-bottom: 1px solid #ffffff;
-}
-
-#logo-wrap :hover {
-    border: 1.5px solid #ffffff;
-    border-radius: 50%;
-   
-}
-
-
-.active {
-    border-bottom: 1px solid #ffffff;
-}
-
-
- 
-
-@media (max-width: 35em ) {
-
-    #nav-menu {
-        display: none;
-    }
-
-    .center-header {
-        width: 50%;
-        justify-content:left;
-    }
-
-    .right-header {
-        width: 50%; 
-        justify-content:right;
-    }
-
-    .left-header {
-        width: 1%;
-    }
-
-    .burger-logo {
-        display: inline;
-    }
-}
-
+@media only screen and (min-width: 600px)
 
 
 /* hero image section */
@@ -736,6 +684,7 @@ audio {
     }
 
 }
+
 
 
 /* footer */
