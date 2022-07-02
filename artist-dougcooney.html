@@ -11,47 +11,74 @@
 </head>
 <body>
     <header>
-        <div class="header-group">
-            <div class="left-header">
-                <nav>
-                <ul id="nav-menu">
-                    <li class="left-li">
-                        <a href="index.html">Latest <i class="fa-solid fa-file-audio"></i></a>
-                    </li>
-                    <li class="left-li">
-                         <a href="releases.html">Releases <i class="fa-solid fa-compact-disc"></i></a>
-                    </li>
-                    <li class="left-li">
-                        <a href="artists.html" class="active">Artists <i class="fa-solid fa-podcast"></i></a>
-                    </li>
-                </ul>
+        <!-- mobile and tablet nav -->
+        <div class="mobile-display">
+            <nav class="mobile-nav">
+            <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
+            <label for="nav__checkbox" class="nav__toggle">
+                <img class="burger-icons" id="burger" src="assets/images/whiteburger.png"width="100">
+                <img class="burger-icons" id="close" src="assets/images/whiteX.png" width="100">
+            </label>
+           
+            <ul class="nav__menu">
+                <li id="logo-li"><a href="index.html"><img src="assets/images/rlsd_logo_white.svg" class="rlsd-logo" width="100"> </a></li>
+                <li><a href="index.html">Latest</a></li>
+                <li><a href="releases.html">Releases</a></li>
+                <li><a href="artists.html ">Artists</a></li>
+                <li><a href="podcast.html">Podcast</a></li>
+                <li><a href="dark-stream.html">Dark Stream</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html"></a></li>
+            </ul>
+       
             </nav>
-            </div>
-            <div class="center-header">
-                <a href="index.html">
-                    <div id="logo-wrap">
-                <img class="header-logo" src="assets/images/rlsd_logo_white.svg" alt="record label logo">
-            </div>
-            </a>
-            </div>
-            <div class="right-header">
-                <nav>
-                <ul id="nav-menu">
-                    <li class="right-li">
-                        <a href="dark-stream.html">Dark Stream <i class="fa-solid fa-play"></i></a>
-                    </li>
-                    <li class="right-li">
-                         <a href="podcast.html">Podcast <i class="fa-solid fa-volume-high"></i></a>
-                    </li>
-                    <li class="right-li">
-                        <a href="contact.html">Contact <i class="fa-solid fa-envelope"></i> </a>
-                    </li>
-                </ul>
-            </nav>
-            </div>
-            
-        </div>    
+        <div></div>
+         <!-- desktop nav -->
     </header>
+        <div id="desktop-display">
+            <nav class="desktop-nav">
+            <div class="header-group">
+                <div class="left-header">
+                    <nav>
+                    <ul id="nav-menu">
+                        <li class="left-li">
+                            <a href="index.html">Latest</a>
+                        </li>
+                        <li class="left-li">
+                             <a href="releases.html">Releases</a>
+                        </li>
+                        <li class="left-li">
+                            <a href="artists.html"class="active">Artists</a>
+                        </li>
+                    </ul>
+                </nav>
+                </div>
+                <div class="center-header">
+                    <a href="index.html">
+                        <div id="logo-wrap">
+                    <img class="header-logo" src="assets/images/rlsd_logo_white.svg" alt="record label logo">
+                </div>
+                </a>
+                </div>
+                <div class="right-header">
+                    <nav>
+                    <ul id="nav-menu">
+                        <li class="right-li">
+                            <a href="podcast.html">Podcast</a>
+                        </li>
+                        <li class="right-li">
+                            <a href="dark-stream.html">Dark Stream</a>
+                        </li>
+                        <li class="right-li">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                </div>
+    
+            </div>
+            </nav>
+         </div>
 
             <div class="artist-info-container">
                 <div class="artist-left">
