@@ -861,8 +861,11 @@ audio {
 
 #form-container {
     position: relative;
-    height: 80vh;
+    height: 70vh;
+    margin: 75px 0;
     width: 100%;
+    z-index: 0;
+    
 }
 
 .sign-up-form {
@@ -873,6 +876,7 @@ audio {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+  z-index: 0;
  
 }
 
