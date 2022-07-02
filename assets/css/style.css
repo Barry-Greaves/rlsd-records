@@ -564,11 +564,15 @@ audio {
 }
 
 .podcast-name h1 {
-    font-size: 3rem;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 .podcast-name h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
 }
 
 .podcast-write-up {
@@ -886,7 +890,7 @@ audio {
     font-size: 1rem;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #cd3d3d;
+    background-color: rgb(122, 40, 40);
     color: #fafafa;
     display: block;
 }
@@ -896,9 +900,9 @@ audio {
     height: 30px;
     margin: 5px 0 20px;
     border-radius: 2px;
-    background-color: #cd3d3d;
+    background-color: rgb(122, 40, 40);
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 1rem;
     
 }
 
@@ -906,9 +910,9 @@ audio {
     width: 100%;
     height: 150px;
     margin: 5px 0 20px;
-    background-color: #cd3d3d;
+    background-color: rgb(122, 40, 40);
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /* footer */
