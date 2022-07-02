@@ -596,6 +596,8 @@ audio {
 
 /* dark stream page */
 
+
+
 #dark-stream-grid {
     
 
@@ -615,6 +617,7 @@ audio {
     padding-bottom: 56.25%; 
     height: 0;
     overflow: auto;
+    border: 1px solid rgb(70, 70, 70);
 }
 
 .video-container iframe{
@@ -626,6 +629,7 @@ audio {
   }
 
 #dark-stream-header {
+    margin: 0 200px;
     width: 100%;
     height: auto;
     
@@ -647,7 +651,7 @@ audio {
 }
 
   #dark-stream-header h1 {
-    text-align: center;
+
     font-weight:300;  
     font-size: 2rem;
     margin: 30px 0;
@@ -671,8 +675,8 @@ audio {
 }
 
 .dark-stream-info {
-    margin-top: 20px;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 1000px) {
