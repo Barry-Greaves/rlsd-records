@@ -33,11 +33,11 @@ hr {
 
 /* header section */
 
+
 .nav {
-    border-bottom:1px solid lightgray;
-    margin: 0;
-    z-index: 2;
+    
     background-color: rgb(16, 16, 16);
+    border-bottom: 1px solid #ffffff;
 }
 
 .nav__toggle {
@@ -48,8 +48,8 @@ hr {
 }
 
 .burger-icons {
-    width: 2rem;
-    margin-top:0.2rem;
+    width: 2.2rem;
+    margin-top: .5rem;
 }
 
 #close {
@@ -64,14 +64,21 @@ hr {
     display:flex;
     flex-direction: column;
     gap:1.5rem;
-    align-items: left;
-    margin: 1rem;
+    align-items: center;
+    margin: .5rem .1rem;
+}
+
+.nav-menu-container {
+    display: flex;
+    align-content: center;
 }
 
 .nav__menu li {
     list-style: none;
     display: none;
     font-weight: 500;
+    font-size: 1.2rem;
+    padding-left: 10px;
 }
 
 .nav__menu li:first-child {
@@ -80,7 +87,12 @@ hr {
 }
 
 .rlsd-logo{
-    width:2.8rem;
+    width:2.9rem;
+}
+
+#logo-li {
+    padding-top: 5px;
+    padding-left:10px
 }
 
 #nav__checkbox:checked ~ ul.nav__menu li {
@@ -94,7 +106,6 @@ hr {
     display: none;
 }
 
-@media only screen and (min-width: 600px)
 
 
 /* hero image section */
