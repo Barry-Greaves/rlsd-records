@@ -784,6 +784,7 @@ audio {
 
 .artist-right {
     flex: 1;
+    margin-bottom: 30px;
 }
 
 .artist-right h3 {
