@@ -424,10 +424,11 @@ audio {
    }
 
 .buy-link {
-    font-weight: 500;
+    font-size: .8rem;
+    font-weight: 400;
     border: 1px solid #ffffff;
-    border-radius: 5px;
-    padding: 6px
+    border-radius: 3px;
+    padding: 4px
 }
 
 .buy-link:hover {
