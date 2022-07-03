@@ -443,16 +443,34 @@ audio {
    }
 
 @media screen and (max-width: 1007px) {
+
+    .release-grid{
+        margin: 0 30px;
+    }
     .release-container {
         grid-template-columns: 1fr;
-        margin: auto;
+        margin: 0;
     }
 
     .release-art-tracks {
         width: 100%;
-        margin: 0 20px;
-       
-       }
+        margin-top: 30px;
+        }
+
+       .release-description {
+
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .release-description h2 {
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
+    .release-description p {
+        text-align: left;
+    }
 }
 
 /* podcast gallery */
